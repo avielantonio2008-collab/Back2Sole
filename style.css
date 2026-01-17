@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f5f5f5;
+  color: #1c1c1c;
+}
+
+header {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.logo {
+  max-width: 120px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+section {
+  padding: 70px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.hero {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.subtext {
+  text-align: center;
+  color: #555;
+}
+
+.packages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.selected {
+  outline: 3px solid #111;
+}
+
+.badge {
+  background: #111;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin: 18px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  color: #555;
+}
+
+.turnaround {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.price {
+  font-size: 1.4rem;
+  margin-top: 14px;
+  font-weight: bold;
+}
+
+.cta {
+  background: #111;
+  color: white;
+  text-align: center;
+  border-radius: 22px;
+}
+
+.cta button {
+  margin-top: 24px;
+  padding: 14px 36px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+footer {
+  background: #eaeaea;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+}

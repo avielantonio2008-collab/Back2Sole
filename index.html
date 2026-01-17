@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Back2Sole | Luxury Shoe Care</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Back2Sole Logo" class="logo">
+    </div>
+    <h1>BACK2SOLE</h1>
+    <p>Luxury care for every step you take</p>
+  </header>
+
+  <section class="hero">
+    <h2>Premium Shoe Cleaning & Restoration</h2>
+    <p>
+      Meticulous, high-end shoe care using safe techniques and premium products.
+      Trusted for sneakers, leather, suede, and luxury footwear.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="center">Choose Your Package</h2>
+    <p class="subtext">
+      Click a package to highlight your choice before ordering.
+    </p>
+
+    <div class="packages">
+
+      <div class="card" onclick="selectPackage(this)">
+        <span class="badge">STANDARD</span>
+        <div class="icon">👟</div>
+        <h3>Daily Refresh</h3>
+        <p>For daily-wear sneakers that need a quick revival.</p>
+        <ul>
+          <li>Upper & midsole clean</li>
+          <li>Light brushing</li>
+          <li>Deodorizing</li>
+        </ul>
+        <span class="turnaround">1–2 days</span>
+        <div class="price">IDR 50K</div>
+      </div>
+
+      <div class="card" onclick="selectPackage(this)">
+        <span class="badge">RECOMMENDED</span>
+        <div class="icon">🧼</div>
+        <h3>Deep Revival</h3>
+        <p>Complete deep cleaning to restore comfort and freshness.</p>
+        <ul>
+          <li>Upper, midsole & outsole</li>
+          <li>Insole wash</li>
+          <li>Odor & bacteria treatment</li>
+        </ul>
+        <span class="turnaround">2–3 days</span>
+        <div class="price">IDR 80K</div>
+      </div>
+
+      <div class="card" onclick="selectPackage(this)">
+        <span class="badge">PREMIUM</span>
+        <div class="icon">✨</div>
+        <h3>Signature Care</h3>
+        <p>Visible restoration with long-lasting results.</p>
+        <ul>
+          <li>Deep Revival package</li>
+          <li>Whitening treatment</li>
+          <li>Protective finishing</li>
+        </ul>
+        <span class="turnaround">3–4 days</span>
+        <div class="price">IDR 120K</div>
+      </div>
+
+      <div class="card" onclick="selectPackage(this)">
+        <span class="badge">ELITE</span>
+        <div class="icon">👑</div>
+        <h3>Luxury Restore</h3>
+        <p>Tailored care for luxury, suede, and leather shoes.</p>
+        <ul>
+          <li>Material-specific treatment</li>
+          <li>Hand detailing</li>
+          <li>Expert consultation</li>
+        </ul>
+        <span class="turnaround">By request</span>
+        <div class="price">Custom</div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Experience True Shoe Restoration</h2>
+    <p>Book your cleaning today with Back2Sole.</p>
+    <button onclick="orderWhatsApp()">Order via WhatsApp</button>
+  </section>
+
+  <footer>
+    © 2026 Back2Sole. Crafted with precision & care.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
